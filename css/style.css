@@ -1,0 +1,46 @@
+.navbar{
+    display: inline-block;
+    background: salmon;
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+.navbar:hover{
+
+background: lightseagreen;
+
+}
+
+nav{
+     background: violet;
+     padding: 10px ;
+     display: flex;
+     justify-content: space-around;
+}
+
+
+.nav-button{
+
+background: salmon;
+color:white;
+padding: 10px 0px;
+border: 2px solid white;
+display: none;
+
+
+}
+
+@media (max-width: 600px){
+nav{
+    background: black;
+    flex-direction: column;
+}
+.navbar{
+
+    margin: 10px 0px;
+}
+.nav-button{
+display: inline-block;
+}
+}
