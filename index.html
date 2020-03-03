@@ -9,14 +9,29 @@
 </head>
 <body>
    <nav>
-       <button class="nav-button">Menu</button>
-<a href="#" class="navbar">Inicio</a>
-<a href="#" class="navbar">Nosotros</a>
-<a href="#" class="navbar">Servicios</a>
-<a href="#" class="navbar">Contactos</a>
-
-
+       <button class="nav-button" onclick="action()">Menu</button>
+<a href="#" class="navbar desaparece">Inicio</a>
+<a href="#" class="navbar desaparece">Nosotros</a>
+<a href="#" class="navbar desaparece">Servicios</a>
+<a href="#" class="navbar desaparece">Contactos</a>
 
    </nav>
+
+<script>
+
+function action(){
+    console.log("hdhd")
+var ancla = document.getElementsByClassName("navbar")
+for(var i=0; i<ancla.length;i++){
+    ancla[i].classList.toggle("desaparece")
+}
+
+
+};
+
+</script>
+
+
+
 </body>
 </html>

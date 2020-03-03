@@ -28,8 +28,9 @@ padding: 10px 0px;
 border: 2px solid white;
 display: none;
 
-
 }
+
+
 
 @media (max-width: 600px){
 nav{
@@ -42,5 +43,9 @@ nav{
 }
 .nav-button{
 display: inline-block;
+}
+
+.desaparece{
+    display: None;
 }
 }
