@@ -1,0 +1,80 @@
+body{
+font-family: 'Lato', sans-serif;
+
+}
+h2{
+    font-weight: 550;
+}
+
+p{
+    font-weight: 450;
+}
+
+
+.container{
+
+margin: 0 auto;
+width: 90%;
+
+}
+
+.flex{
+display: flex;
+flex-wrap: wrap;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.price{
+    font-size: 50px;
+    color: turquoise;
+}
+.column{
+    background: rgb(228,228,228);
+    color: #333;
+    border:1px solid #333;
+    margin:0px auto;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px #888;
+    width: 23%;
+    box-sizing: border-box;
+}
+
+.ancla{
+
+    background: salmon;
+    display: block;
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.ancla:hover{
+
+    background: red;
+}
+
+@media(max-width: 1070px){
+
+.column{
+
+    width: 45%;
+    margin-bottom: 20px;
+}
+
+}
+@media(max-width: 600px){
+
+    .column{
+
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    
+
+}
